@@ -9,4 +9,4 @@ bash
 RUN git clone https://github.com/szkolasecurity/RFI-lab.git
 WORKDIR RFI-lab
 RUN pip2 install -r requirements.txt
-#CMD [ "python2", "./RFI.py" ]
+CMD [ "python2", "./RFI.py" ]
